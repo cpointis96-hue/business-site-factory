@@ -16,7 +16,7 @@ npm run dev
 
 Ouvrir `http://127.0.0.1:4173` pour le cockpit et `http://127.0.0.1:4173/intake.html` pour l’entrée publique locale. `PORT` permet de changer le port. Les données et configurations sont créées dans `.ancrage/`; `ANCRAGE_DATA_DIR` permet de choisir un autre répertoire.
 
-Depuis le cockpit, Configuration puis « Lancer un test » exécute un scénario synthétique. Les tests couvrent aussi création de dossier, rapports, aperçu de site, interruption et reprise. Le site issu de cette simulation est un aperçu déterministe, pas une preuve de génération commerciale par IA.
+`npm test` exécute les scénarios synthétiques de création de dossier, rapports, aperçu de site, interruption et reprise. Le site issu de cette simulation est un aperçu déterministe, pas une preuve de génération commerciale par IA.
 
 ## Ce qui est présent
 
