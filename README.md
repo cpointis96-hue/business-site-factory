@@ -1,8 +1,16 @@
 # Ancrage / Website Factory
 
-Prototype local de cockpit pour préparer des dossiers d’établissement, orchestrer des workflows versionnés, produire des rapports d’audit et des aperçus de sites, puis les soumettre à une validation opérateur.
+## En bref
 
-Le dépôt contient un moteur Node.js, une API HTTP sur loopback et une interface HTML/CSS/JavaScript. Ce n’est pas un service de production : les intégrations réelles, la publication et les opérations commerciales demandent encore une validation dans leur environnement cible.
+**Ce que c’est :** un cockpit local pour préparer des dossiers d’établissement et suivre leur production.
+
+**À quoi il sert :** enchaîner des étapes versionnées, produire un rapport d’audit et générer un aperçu de site avant validation par un opérateur.
+
+**Ce qui a été réalisé :** moteur de workflow, API locale, interface de cockpit, entrée de dossier, rapports, aperçu de site et scénarios de reprise.
+
+**Technologies :** Node.js, API HTTP locale, HTML, CSS et JavaScript.
+
+Les intégrations réelles, la publication et les opérations commerciales demandent encore une validation dans leur environnement cible.
 
 ## Démarrer
 
