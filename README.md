@@ -37,3 +37,7 @@ Cette copie publique conserve `app/`, `src/`, `fixtures/defaults/` et `test/`. L
 ## Suite du travail
 
 Valider les fournisseurs avec comptes dédiés et limites explicites ; vérifier le trousseau réel, la sauvegarde/restauration et les parcours navigateur avant un usage opérationnel. Publication, achat de domaine et envoi commercial ne sont pas validés par cette préparation.
+
+## Dépôt et téléchargement
+
+[Voir le dépôt](https://github.com/cpointis96-hue/business-site-factory) · [Télécharger les sources ZIP](https://github.com/cpointis96-hue/business-site-factory/archive/HEAD.zip). Le ZIP contient les sources, pas un service déployé.
