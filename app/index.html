@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Ancrage</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div id="app" class="app-shell">
+    <aside class="side-pane">
+      <button id="brand" class="brand" type="button" aria-label="Ouvrir À traiter"><span class="brand-name">ANCRAGE<small>COCKPIT</small></span></button>
+      <div class="nav-group-label">Pilotage</div>
+      <nav id="ops-nav" class="nav" aria-label="Opérations"></nav>
+      <div class="nav-group-label">Système</div>
+      <nav id="control-nav" class="nav" aria-label="Contrôle"></nav>
+      <div class="bridge-state"><span class="state-dot pass" aria-hidden="true"></span>Bridge local</div>
+    </aside>
+    <section id="list" class="list-pane" aria-label="Liste"></section>
+    <main id="detail" class="detail-pane" tabindex="-1"></main>
+  </div>
+  <div id="status" class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="/app.mjs"></script>
+</body>
+</html>

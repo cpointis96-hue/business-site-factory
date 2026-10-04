@@ -1,0 +1,24 @@
+{
+  "id": "local-seo-research",
+  "name": "Recherche SEO locale",
+  "version": 1,
+  "steps": [
+    {
+      "id": "research-plan",
+      "kind": "ai",
+      "trigger": "start",
+      "dependsOn": [],
+      "inputRefs": [],
+      "outputRefs": ["plan"],
+      "implementation": "provider-chat",
+      "provider": "openai",
+      "model": "gpt-5.4-mini",
+      "promptRef": "local-seo-research-planner",
+      "contractRef": "seo-research-plan",
+      "timeoutMs": 15000,
+      "budget": 0.05,
+      "maxOutputTokens": 700,
+      "approval": "none"
+    }
+  ]
+}

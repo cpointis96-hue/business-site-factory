@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Ancrage — votre présence locale, enfin lisible</title>
+  <link rel="stylesheet" href="/intake.css">
+</head>
+<body class="intake-body">
+  <div class="intake-frame">
+    <header class="client-nav">
+      <a class="client-brand" href="#top" aria-label="Ancrage, accueil"><span class="mascot-mark" aria-hidden="true">a</span>ANCRAGE</a>
+      <nav class="client-links" aria-label="Navigation principale"><a href="#how">Comment ça marche</a><a href="#deliver">Ce que vous recevez</a></nav>
+      <button class="menu-button" type="button" aria-label="Ouvrir le menu" aria-expanded="false">MENU</button>
+    </header>
+    <main id="top">
+      <section class="client-hero">
+        <div class="hero-copy">
+          <div class="kicker">Votre présence locale, enfin lisible</div>
+          <h1>Voyez ce que voient vos clients.</h1>
+          <p>Ancrage vous montre la visibilité de votre établissement et où agir en premier.</p>
+          <form class="audit-form" id="audit-form">
+            <label class="form-label" for="establishment">Commencez avec votre établissement</label>
+            <div class="field-row"><input class="field" id="establishment" name="name" placeholder="Nom de l’établissement" required autocomplete="organization"><input class="field" id="location" name="city" placeholder="Ville ou lieu" required autocomplete="address-level2"></div>
+            <button class="primary" type="submit">Voir mon audit <span aria-hidden="true">↘</span></button>
+            <p class="form-note">Deux informations pour commencer. L’audit vous guidera ensuite pas à pas.</p>
+            <p class="form-state" id="audit-state" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+        <div class="hero-art"><img src="/assets/brand-rock.png" alt="Rocher volcanique couvert de mousse et de plantes dans une forêt humide"></div>
+      </section>
+      <section class="section" id="how">
+        <div class="section-grid"><div><div class="small-label">Le parcours</div><h2>Clair dès le premier regard.</h2></div><div class="explain-list"><div class="explain"><div class="explain-index">01</div><div><strong>Vous indiquez votre établissement</strong><span>Nom et lieu suffisent pour commencer. Nous vous montrerons ensuite les informations trouvées.</span></div></div><div class="explain"><div class="explain-index">02</div><div><strong>Nous lisons votre présence</strong><span>Les signaux publics sont réunis dans un parcours progressif et compréhensible.</span></div></div><div class="explain"><div class="explain-index">03</div><div><strong>Vous savez quoi faire ensuite</strong><span>Les priorités sont expliquées sans jargon, avec la possibilité de préparer votre futur site.</span></div></div></div></div>
+      </section>
+      <section class="section" id="deliver"><div class="promise"><div><div class="small-label">Ce que vous recevez</div><h2>Un point de départ qui ressemble à votre réalité.</h2></div><p>Pas de score magique isolé. Un audit lisible, des éléments vérifiables et un chemin concret pour passer de votre présence actuelle à une présence qui travaille pour vous.</p></div></section>
+      <section class="section dossier-section" id="dossier-section" hidden>
+        <div class="section-grid"><div><div class="small-label">Votre dossier</div><h2>Ajoutez ce qui rend votre lieu reconnaissable.</h2><p>Ces informations restent locales et servent à préparer une première version cohérente de votre site.</p></div><form class="dossier-form" id="dossier-form">
+          <label class="field-label">Pays<input class="field" name="country" autocomplete="country-name"></label>
+          <label class="field-label">Adresse<input class="field" name="address" autocomplete="street-address"></label>
+          <label class="field-label">Votre histoire<textarea class="field" name="story" placeholder="L’histoire du lieu, votre cuisine, ce que vos clients viennent chercher…"></textarea></label>
+          <label class="field-label">Menu<textarea class="field menu-input" name="menu" placeholder="Khao soi | 14&#10;Curry du jour | 12"></textarea></label>
+          <label class="field-label">E-mail de contact<input class="field" name="contact" type="email" autocomplete="email"></label>
+          <label class="field-label">Une image<input class="field file-field" id="photo" name="photo" type="file" accept="image/jpeg,image/png,image/webp"><small>JPEG, PNG ou WebP · 700 Ko maximum</small></label>
+          <div id="photo-preview" class="photo-preview" hidden></div>
+          <div class="dossier-submit"><button class="primary" type="submit">Enregistrer mon dossier</button><span id="dossier-state" role="status" aria-live="polite"></span></div>
+        </form></div>
+      </section>
+      <section class="section success-section" id="intake-success" tabindex="-1" hidden><div class="small-label">Dossier reçu</div><h2>Votre dossier est prêt.</h2><p>Il est maintenant visible dans le cockpit et peut lancer son workflow sans ressaisie.</p><a class="primary" href="/">Ouvrir le cockpit</a></section>
+    </main>
+    <footer class="client-footer"><span><span class="mascot-mark" aria-hidden="true">a</span> ANCRAGE</span><span>Votre présence locale, enfin lisible</span><a href="#top">Revenir au début ↑</a></footer>
+  </div>
+  <script type="module" src="/intake.mjs"></script>
+</body>
+</html>

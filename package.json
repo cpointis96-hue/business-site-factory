@@ -1,0 +1,13 @@
+{
+  "name": "business-site-factory-prototypes",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "node ship-studio-preview.mjs",
+    "test": "node --test",
+    "check": "node --check ship-studio-preview.mjs"
+  }
+}

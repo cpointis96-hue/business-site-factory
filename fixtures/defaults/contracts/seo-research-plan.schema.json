@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "seo-research-plan",
+  "type": "object",
+  "required": ["category", "queries"],
+  "properties": {
+    "category": { "type": "string" },
+    "queries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["query", "intent", "basis"],
+        "properties": {
+          "query": { "type": "string" },
+          "intent": { "type": "string", "enum": ["brand", "discovery", "menu", "reservation"] },
+          "basis": { "type": "string", "enum": ["business-name", "observed-category"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

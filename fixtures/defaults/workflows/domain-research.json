@@ -1,0 +1,9 @@
+{
+  "id": "domain-research",
+  "name": "Recherche de domaines",
+  "version": 1,
+  "steps": [
+    {"id":"collect-query","kind":"deterministic","trigger":"start","dependsOn":[],"inputRefs":[],"outputRefs":["query"],"implementation":"collect-query","timeoutMs":1000,"budget":0,"approval":"none"},
+    {"id":"domain-candidates","kind":"deterministic","trigger":"ready","dependsOn":["collect-query"],"inputRefs":["collect-query"],"outputRefs":["candidates"],"contractRef":"contracts/domain-candidates.schema.json","implementation":"domain-candidates","timeoutMs":1000,"budget":0,"approval":"none"}
+  ]
+}

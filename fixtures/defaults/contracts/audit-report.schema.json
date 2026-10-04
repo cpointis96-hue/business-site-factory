@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "audit-report",
+  "type": "object",
+  "required": ["findings", "limits", "recommendations"],
+  "properties": {
+    "findings": { "type": "array", "items": { "type": "object" } },
+    "limits": { "type": "array", "items": { "type": "string" } },
+    "recommendations": { "type": "array", "items": { "type": "object" } }
+  },
+  "additionalProperties": false
+}

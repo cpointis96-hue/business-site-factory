@@ -1,0 +1,12 @@
+[
+  {"id":"openai","name":"OpenAI","kind":"ai","capabilities":["chat","embeddings"],"secretRef":"provider:openai"},
+  {"id":"anthropic","name":"Anthropic Claude","kind":"ai","capabilities":["chat"],"secretRef":"provider:anthropic"},
+  {"id":"google-gemini","name":"Google Gemini","kind":"ai","capabilities":["chat","embeddings"],"secretRef":"provider:google-gemini"},
+  {"id":"openrouter","name":"OpenRouter","kind":"ai","capabilities":["chat"],"secretRef":"provider:openrouter"},
+  {"id":"dataforseo","name":"DataForSEO","kind":"seo","capabilities":["serp","maps","local-pack","business-listings","keyword-data","keyword-overview","ranked-keywords","keywords-for-site","competitors","domain-intersection","on-page"],"secretRef":"provider:dataforseo"},
+  {"id":"google-places","name":"Google Places","kind":"geo","capabilities":["autocomplete","place-details"],"secretRef":"provider:google-places"},
+  {"id":"cloudflare","name":"Cloudflare","kind":"domain","capabilities":["domain-search"],"secretRef":"provider:cloudflare"},
+  {"id":"dynadot","name":"Dynadot","kind":"domain","capabilities":["domain-search"],"secretRef":"provider:dynadot"},
+  {"id":"namesilo","name":"NameSilo","kind":"domain","capabilities":["domain-search"],"secretRef":"provider:namesilo"},
+  {"id":"name-com","name":"Name.com","kind":"domain","capabilities":["domain-search"],"secretRef":"provider:name-com"}
+]
