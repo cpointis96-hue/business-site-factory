@@ -1,12 +1,28 @@
-# Ancrage / Website Factory
+# Ancrage / Website Factory : mon projet d'activité principal
 
 ## Le projet en quelques mots
 
-Je prépare un outil pour organiser le travail de création de sites pour des entreprises locales. L'idée est de suivre un dossier depuis la collecte des informations jusqu'à un rapport d'audit et un aperçu du futur site.
+Je prépare une activité de création de sites et d'amélioration de la visibilité d'entreprises locales. Ancrage est mon outil pour organiser ce travail : suivre un dossier depuis la collecte des informations jusqu'aux audits et à un aperçu du futur site.
 
 Le prototype contient un formulaire de dossier, un tableau de suivi, des rapports et un aperçu de site. Il explore une manière de rendre le travail plus régulier et de reprendre une tâche interrompue.
 
-Ce projet montre mon travail sur l'organisation d'une activité de service. Les essais actuels utilisent des données de test ; le fonctionnement avec les services externes et la publication de sites restent à valider.
+Au 11 octobre 2026, je concentre mon travail sur le raccordement des API, la validation des résultats et la maîtrise des coûts. Je n'ai pas encore contacté de clients potentiels. Les essais de présentation utilisent des données de démonstration ; ils ne représentent pas des commandes ou des audits clients réels.
+
+## Visiter Ancrage sans installation
+
+[Ouvrir la visite guidée complète, du parcours client à chaque onglet du cockpit](docs/VISITE-GUIDEE.md).
+
+Elle explique l'entrée client, À traiter, les cinq vues des exécutions, les quatre vues des dossiers, la configuration des workflows et de leurs étapes, les consignes, les formats de sortie, les profils d'outils, les fournisseurs et les noms de domaine. Chaque section est accompagnée de captures prises dans le prototype local.
+
+## L'entrée client
+
+Le client commence par le nom de son établissement et sa ville. Il peut ensuite compléter son histoire, son offre, ses prix, une image et ses coordonnées. Dans le prototype local montré ici, le bouton « Voir mon audit » ouvre le formulaire de dossier : il ne lance pas encore une recherche connectée à partir de ces deux informations.
+
+![Entrée client d'Ancrage, avant toute saisie](docs/screenshots/client-accueil-2026-10-11.jpg)
+
+Le dossier ci-dessous est explicitement fictif. Il sert à montrer la collecte des informations, sans présenter une entreprise inventée comme un client.
+
+![Formulaire rempli avec un dossier de démonstration](docs/screenshots/client-formulaire-2026-10-11.jpg)
 
 ## Comment le découvrir
 
@@ -20,7 +36,7 @@ J'ai conçu mon propre cockpit, c'est-à-dire un tableau de pilotage pour garder
 
 Deux interfaces répondent à des besoins différents : le côté client sert à recueillir les informations de l'établissement et son offre ; mon cockpit sert à organiser le travail et à examiner ce que chaque étape produit.
 
-![Mon cockpit de pilotage, sur une instance de test vide](docs/screenshots/cockpit.png)
+![Mon cockpit et les actions à traiter pour le dossier fictif](docs/screenshots/a-traiter-2026-10-11.jpg)
 
 ## Ce qui est déjà mis en place
 
@@ -33,7 +49,9 @@ Deux interfaces répondent à des besoins différents : le côté client sert à
 - Une reprise après interruption et un stockage des résultats sur l'ordinateur.
 - Un suivi des coûts et des budgets maximum avant les appels à des services externes. Les prix de l'offre de l'établissement sont également stockés dans son dossier ; le prototype ne démontre pas encore une activité de facturation ou de vente.
 
-![Configuration des workflows](docs/screenshots/configuration.png)
+![Configuration des workflows et plafonds techniques de coût](docs/screenshots/config-workflows-2026-10-11.jpg)
+
+Les plafonds affichés sont des paramètres techniques de démonstration. Ils ne sont ni les tarifs de mes prestations ni des dépenses effectivement engagées pour un client.
 
 ## Le parcours prévu
 
@@ -41,15 +59,19 @@ Informations du client → validation du dossier → audit de visibilité locale
 
 La simulation locale parcourt cette chaîne et produit ses rapports et son aperçu. Les rapports simulés servent à vérifier l'organisation du processus ; ils ne prouvent pas qu'une analyse complète de concurrents réels a été effectuée automatiquement.
 
+![Suivi des six étapes terminées pour le dossier fictif](docs/screenshots/run-vue-2026-10-11.jpg)
+
+La mention « Terminé » concerne cette simulation déterministe, pas une prestation commerciale livrée. Le 11 octobre, le dossier saisi côté client a été enregistré localement, retrouvé dans le cockpit et utilisé pour cette exécution, sans fournisseur payant appelé.
+
 ## Où en est le projet ?
 
-Le socle et les interfaces sont construits. La vérification du 4 octobre 2026 a fait passer 116 tests couvrant notamment les dossiers, les étapes, les versions, les coûts et la reprise. Les écrans du cockpit, de configuration et de saisie client ont été ouverts dans un navigateur.
+Le socle et les interfaces sont construits. Le 11 octobre 2026, les 116 tests locaux ont de nouveau réussi, ainsi que dix tests HTTP ciblés. Ils couvrent notamment les dossiers, les étapes, les versions, les coûts, les routes locales et la reprise. Les onglets du cockpit, la saisie client et les résultats de la simulation ont été ouverts dans un navigateur et capturés pour la visite guidée.
 
-L'utilisation des fournisseurs réels, la sauvegarde et restauration en conditions réelles et le parcours complet d'un client restent à vérifier. Le projet prépare une activité ; il ne présente pas des commandes clients ou des revenus déjà obtenus.
+L'utilisation des fournisseurs réels, la sauvegarde et restauration en conditions réelles et le parcours complet d'un client réel restent à vérifier. Le projet prépare une activité ; il ne présente pas des commandes clients ou des revenus déjà obtenus.
 
 ## Les prochaines étapes
 
-Tester la chaîne sur un dossier autorisé, vérifier les sources des audits et la qualité des contenus, valider les connexions externes et leurs budgets, puis éprouver le parcours client et la publication d'un site avec validation humaine.
+Finir et valider les connexions externes et leurs budgets, tester la chaîne sur un dossier autorisé, vérifier les sources des audits et la qualité des contenus, puis éprouver la publication d'un site avec validation humaine. Il restera ensuite à préciser l'offre et les tarifs et à confronter le service aux besoins de clients potentiels.
 
 Ce travail m'amène à articuler collecte d'informations, recherche locale, conception de contenu, organisation des tâches, contrôle qualité et maîtrise des coûts dans un même outil.
 
