@@ -1,6 +1,6 @@
 # Exemples Ancrage
 
-Lectrice principale : la conseillère qui découvre le projet sur GitHub, sans devoir installer le prototype.
+Lecteur principal : une personne qui découvre le projet sur GitHub, sans devoir installer le prototype.
 
 Demande : remplacer les exemples visuels pauvres de deux audits et d'un aperçu de site par des exemples professionnels imaginés, avec un faux établissement, dans les verts du site existant. Les données inventées sont explicitement autorisées pour cette démonstration.
 

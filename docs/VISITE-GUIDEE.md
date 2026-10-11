@@ -113,7 +113,7 @@ La démo Maison Sauge transforme ce dossier en un site de restaurant : ambiance 
 
 Chaque exécution conserve les versions de sa méthode et de ses étapes. Je peux ainsi retrouver les réglages utilisés à ce moment-là, même si je modifie ensuite un workflow pour les travaux suivants.
 
-Le long identifiant appelé « hash » est une empreinte du contenu : il sert à reconnaître une version précise. La conseillère n'a pas besoin de le déchiffrer ; ce qui compte est la traçabilité du travail.
+Le long identifiant appelé « hash » est une empreinte du contenu : il sert à reconnaître une version précise. Le lecteur n'a pas besoin de le déchiffrer ; ce qui compte est la traçabilité du travail.
 
 ![Configuration conservée pour cette exécution](screenshots/run-versions-2026-10-11.jpg)
 
