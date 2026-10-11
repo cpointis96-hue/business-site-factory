@@ -81,27 +81,33 @@ Les six lignes sont terminées pour ce dossier fictif. Les intitulés d'audit ne
 
 Cet écran donne accès à l'aperçu du site et aux rapports produits, avec le dossier qui leur a servi de source. Le mot technique « artefacts » désigne simplement ces fichiers et résultats conservés.
 
-Je peux ouvrir et examiner les résultats au lieu de me fier uniquement à un voyant « terminé ». Les trois exemples suivants viennent réellement de l'exécution locale, mais leur contenu reste celui d'une simulation.
+Je peux ouvrir et examiner les résultats au lieu de me fier uniquement à un voyant « terminé ». L'écran ci-dessous montre les artefacts de la simulation locale. Les exemples Maison Sauge qui suivent sont des démonstrations de présentation distinctes : dossier, chiffres, constats et photographies ont été imaginés pour montrer une restitution plus aboutie, sans appel à un fournisseur réel.
 
 ![Accès aux rapports, au site et au dossier source](screenshots/run-preuves-2026-10-11.jpg)
 
 ### Exemple : le premier rapport local
 
-Le rapport récapitule les informations fournies et les points à confirmer. « GMB » désigne la fiche d'établissement Google, aujourd'hui appelée Google Business Profile. Dans cet exemple, aucune donnée réelle de fiche Google n'a été récupérée : le rapport l'indique dans son périmètre.
+« Maison Sauge » est un bistrot fictif à Annecy. Le premier rapport illustre la lecture d'une présence locale : identité, offre, avis, photos, priorités et actions concrètes. « GMB » désigne la fiche d'établissement Google, aujourd'hui appelée Google Business Profile. Tous les indicateurs de cet exemple sont simulés.
 
-![Rapport local initial fondé sur le dossier fictif](screenshots/rapport-local-2026-10-11.jpg)
+![Exemple Maison Sauge : rapport de visibilité locale avec diagnostic et priorités](screenshots/maison-sauge-audit-local-2026-10-11.jpg)
+
+[Lire le rapport local complet en PDF](examples/audit-local.pdf) · [Voir le dossier d'entrée et tous les exemples](examples/README.md)
 
 ### Exemple : le rapport SEO et concurrence
 
-Le référencement naturel, ou SEO, concerne la visibilité dans les moteurs de recherche. Ce rapport de simulation propose une structure de travail et des pistes à vérifier. Il ne mesure ni un classement Google, ni un volume de recherches, ni la position de concurrents réels.
+Le référencement naturel, ou SEO, concerne la visibilité dans les moteurs de recherche. Ce second rapport reprend le même dossier et approfondit le site existant imaginé, les recherches locales, trois profils de concurrents fictifs et un plan de travail. Les volumes, positions et résultats sont inventés pour la démonstration ; ils sont signalés comme tels dans le rapport.
 
-![Rapport SEO de simulation avec ses limites](screenshots/rapport-seo-2026-10-11.jpg)
+![Exemple Maison Sauge : rapport SEO et concurrence avec diagnostic et plan de travail](screenshots/maison-sauge-audit-seo-2026-10-11.jpg)
+
+[Lire le rapport SEO complet en PDF](examples/audit-seo.pdf)
 
 ### Exemple : l'aperçu de site
 
-L'aperçu reprend le nom, l'histoire et le menu du dossier. Il permet de voir comment les informations circulent jusqu'au résultat final. Ce modèle local n'est pas une preuve qu'un site commercial personnalisé a été généré par IA ou publié sur Internet.
+La démo Maison Sauge transforme ce dossier en un site de restaurant : ambiance du lieu, carte avec prix, histoire, horaires et informations pour venir. Les deux photographies ont été générées pour cet exemple. Le site se parcourt réellement dans un navigateur, sur ordinateur et mobile ; il ne prend aucune réservation et ne représente pas un client réel ou un site commercial publié.
 
-![Aperçu local issu du dossier de démonstration](screenshots/apercu-site-2026-10-11.jpg)
+![Démo Maison Sauge : site de restaurant dans les verts d'Ancrage, avec photographie et informations pratiques](screenshots/maison-sauge-site-2026-10-11.jpg)
+
+[Découvrir le dossier d'entrée, les rapports et les fichiers de la démo](examples/README.md). Après téléchargement du ZIP, ouvrir `docs/examples/dossier.html` : les quatre pages, les photos et les PDF sont consultables sans installation ni connexion.
 
 ## 9. Runs, sous-onglet Versions : savoir quels réglages ont été utilisés
 

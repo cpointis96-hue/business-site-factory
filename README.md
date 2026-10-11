@@ -55,6 +55,8 @@ Les plafonds affichés sont des paramètres techniques de démonstration. Ils ne
 
 ## Le parcours prévu
 
+[Découvrir un exemple complet : Maison Sauge, dossier fictif, rapports local et SEO, puis démo de site](docs/examples/README.md). Ces exemples de présentation utilisent des chiffres simulés et des photographies générées, clairement signalés ; ils illustrent une restitution cible sans modifier le moteur d'audit.
+
 [Lire les arbres de décision : selon les informations du client, la présence d'une fiche Google et d'un site, puis les résultats des audits](docs/ARBRE-DE-DECISION.md).
 
 Cette page présente le parcours que j'ai conçu, ses embranchements et les conditions de passage d'une étape à la suivante. Elle distingue la méthode prévue, la logique déjà codée et la simulation montrée dans les captures.

@@ -1,0 +1,19 @@
+{
+  "fictional": true,
+  "name": "Maison Sauge",
+  "city": "Annecy",
+  "address": "18, passage des Tilleuls · adresse fictive",
+  "category": "Bistrot de saison",
+  "website": "https://maison-sauge.example.test",
+  "contact": "bonjour@maison-sauge.example.test",
+  "story": "Une petite maison, une grande table. Camille et Noé ont imaginé un bistrot où la saison décide du menu : des producteurs proches, des assiettes généreuses et le plaisir de prendre son temps. La salle mêle bois clair, pierre et nuances de sauge.",
+  "hours": "Du mardi au samedi · 12 h–14 h et 19 h–22 h",
+  "menu": [
+    {"name": "Poireaux rôtis", "description": "Vinaigrette de noisette, œuf mollet et herbes fraîches", "price": 12},
+    {"name": "Gnocchis à la sauge", "description": "Champignons de saison, beurre noisette et vieux comté", "price": 24},
+    {"name": "Truite des Alpes", "description": "Légumes du marché, citron confit et jus d'herbes", "price": 28},
+    {"name": "Poire pochée", "description": "Crème légère à la vanille et crumble de sarrasin", "price": 10}
+  ],
+  "localAudit": {"score": 66, "rating": 4.6, "reviews": 128, "photos": 9, "dimensions": [{"name": "Identité et coordonnées", "score": 92}, {"name": "Offre et informations pratiques", "score": 58}, {"name": "Avis et réponses", "score": 74}, {"name": "Photos et attractivité", "score": 38}]},
+  "seoAudit": {"score": 58, "pages": 8, "dimensions": [{"name": "Socle technique", "score": 64}, {"name": "Contenus et intentions", "score": 46}, {"name": "Pertinence locale", "score": 64}], "keywords": [{"query": "bistrot Annecy", "volume": 880, "position": 18}, {"query": "restaurant de saison Annecy", "volume": 390, "position": 24}, {"query": "restaurant végétarien Annecy centre", "volume": 260, "position": null}, {"query": "Maison Sauge menu", "volume": 140, "position": 2}]}
+}
