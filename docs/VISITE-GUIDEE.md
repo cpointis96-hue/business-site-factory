@@ -26,7 +26,7 @@ L'écran présente Ancrage et propose de commencer avec le nom de l'établisseme
 
 Le nom et la ville servent de point de départ pour identifier le dossier. Ici, ils sont volontairement fictifs. Le bouton « Voir mon audit » ouvre actuellement la suite du formulaire ; il ne déclenche pas encore une recherche connectée ou un audit complet à partir de ces deux champs.
 
-![Nom et ville saisis dans le formulaire de départ](screenshots/client-identification-2026-10-11.jpg)
+![Nom et ville saisis dans le formulaire de départ](screenshots/client-identification-formulaire-2026-10-11.jpg)
 
 ## 3. Il complète les informations de son établissement
 
