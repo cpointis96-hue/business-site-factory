@@ -12,6 +12,8 @@ Le client indique son établissement et sa ville, complète son dossier, puis l'
 
 Deux mots présents dans les écrans : un **workflow** est une suite d'étapes de travail ; un **run** est une exécution de cette suite sur un dossier donné.
 
+[Voir les arbres de décision du parcours](ARBRE-DE-DECISION.md) : établissement trouvé ou ambigu, site présent ou non confirmé, rapport GMB puis SEO, dossier incomplet et validation de la démo.
+
 ## 1. Le client arrive sur l'entrée publique
 
 L'écran présente Ancrage et propose de commencer avec le nom de l'établissement et sa ville. Les liens « Comment ça marche » et « Ce que vous recevez » expliquent le parcours prévu.

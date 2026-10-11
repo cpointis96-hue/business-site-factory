@@ -55,6 +55,10 @@ Les plafonds affichés sont des paramètres techniques de démonstration. Ils ne
 
 ## Le parcours prévu
 
+[Lire les arbres de décision : selon les informations du client, la présence d'une fiche Google et d'un site, puis les résultats des audits](docs/ARBRE-DE-DECISION.md).
+
+Cette page présente le parcours que j'ai conçu, ses embranchements et les conditions de passage d'une étape à la suivante. Elle distingue la méthode prévue, la logique déjà codée et la simulation montrée dans les captures.
+
 Informations du client → validation du dossier → audit de visibilité locale → analyse SEO et concurrence → plan de contenu → aperçu du site → contrôle qualité et validation.
 
 La simulation locale parcourt cette chaîne et produit ses rapports et son aperçu. Les rapports simulés servent à vérifier l'organisation du processus ; ils ne prouvent pas qu'une analyse complète de concurrents réels a été effectuée automatiquement.
